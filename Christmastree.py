@@ -69,10 +69,11 @@ close_center=105*ratio
 far_space=0.5*font_width
 close_space=0.2*font_width
 pen=turtle.Turtle()
+pen.up()
 pen.shape("arrow")
 pen.width(7*ratio)
 pen.color("orange")
-pen.up()
+
 pen.goto(70,260)
 pen.down()
 #Draw T
